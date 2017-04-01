@@ -89,10 +89,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OptionsEnum.cs" />
-    <Compile Include="PlainTextMessageReceiver.cs" />
+    <Compile Include="ContratanteReceiver.cs" />
+    <Compile Include="InitialReceiver.cs" />
+    <Compile Include="CandidatoReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="application.json">

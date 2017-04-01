@@ -2,7 +2,8 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>D:\Git\GAMA\chat-bot-gama\chat-bot-gama\bin\Debug\mhh.exe</StartProgram>
+    <StartProgram>D:\Git\GAMA\chat-bot-gama\bin\Debug\mhh.exe</StartProgram>
+    <StartArguments>--pause</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartAction>Program</StartAction>

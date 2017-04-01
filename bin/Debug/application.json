@@ -3,8 +3,20 @@
   "accessKey": "QkF1NTBobldZNWpRNXNRNXU3STU=",
   "messageReceivers": [
     {
-      "type": "PlainTextMessageReceiver",
+      "content": "ola|oi",
+      "type": "InitialReceiver",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "CandidatoReceiver",
+      "mediaType": "text/plain",
+      "content": "candidato|conheceSim|conheceNao"
+    }
+    ,
+    {
+      "type": "ContratanteReceiver",
+      "mediaType": "text/plain",
+      "content": "contratante|agendada|naoAgendada"
     }
   ],
   "settings": {
